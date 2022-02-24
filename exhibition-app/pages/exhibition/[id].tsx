@@ -13,7 +13,7 @@ const Exhibition = ({
   const [exhibitionData, setExhibitionData] = useState<any | null>();
   const [loading, setLoading] = useState<Boolean>(false);
 
-  //life Cycle method
+  //life Cycle method...
   useEffect(() => {
     if (data) setExhibitionData(data);
   }, [data]);
